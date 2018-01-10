@@ -11,10 +11,10 @@
         app:qm_waveWidth="300dp"/> <br/>
         
 # 自定义属性说明
-qm_bg属性：表示SurfaceView 的背景色 <br/>
-qm_firstWaveColor属性：表示第一个波的颜色 <br/>
-qm_secondWaveColor属性：表示第二个波的颜色 <br/>
-qm_speed属性：表示波的移动速度 <br/>
+qm_bg：表示SurfaceView 的背景色 <br/>
+qm_firstWaveColor：表示第一个波的颜色 <br/>
+qm_secondWaveColor：表示第二个波的颜色 <br/>
+qm_speed：表示波的移动速度 <br/>
 qm_waveHeight：表示波的高度 <br/>
 qm_waveWidth：表示波的宽度 <br/>
 
