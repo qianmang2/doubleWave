@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bsi.doublewave.MainActivity">
+
+    <com.bsi.doublewave.DoubleWaveView
+        android:id="@+id/dwv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:qm_bg="@color/bg"
+        app:qm_firstWaveColor="@color/blue"
+        app:qm_secondWaveColor="@color/light_blue"
+        app:qm_speed="3dp"
+        app:qm_waveHeight="35dp"
+        app:qm_waveWidth="300dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/cat"
+        android:src="@mipmap/ic_cat_round" />
+
+
+</RelativeLayout>

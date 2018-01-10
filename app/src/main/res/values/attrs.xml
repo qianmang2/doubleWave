@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DoubleWaveView">
+        <attr name="qm_bg" format="color"/>
+        <attr name="qm_firstWaveColor" format="color"/>
+        <attr name="qm_secondWaveColor" format="color"/>
+        <attr name="qm_waveWidth" format="dimension"/>
+        <attr name="qm_waveHeight" format="dimension"/>
+        <attr name="qm_speed" format="dimension"/>
+    </declare-styleable>
+</resources>
